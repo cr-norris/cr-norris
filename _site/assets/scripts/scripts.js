@@ -1,8 +1,16 @@
-$(".close").click(function(){
+$(".nav-trigger-desktop").mouseenter(function() {
+    $('.outside').addClass('in');
+});
+
+$(".nav-trigger-mobile").click(function(){
 	$('.outside').toggleClass('in');
-	$('.bar').toggleClass('active');
 	$('.nav-close-icon').toggleClass('is-showing');
 });
+
+$("#navigation").mouseleave(function() {
+    $('.outside').removeClass('in');
+});
+
 
 $("#player").prop("volume", 0.05);
 
