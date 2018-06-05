@@ -284,8 +284,8 @@ a:hover {
 .in {
     -webkit-transform: translateX(0);
     transform: translateX(0);
-    -webkit-transition: 0;
-    transition: 0;
+    -webkit-transition: .5s;
+    transition: .5s;
 }
 
 .inside {

@@ -5,7 +5,7 @@ $(".nav-trigger-desktop").mouseenter(function() {
 });
 
 
-$("#navigation").mouseout(function() {
+$("#navigation").mouseleave(function() {
     $('.outside').removeClass('in');
 });
 
