@@ -16,7 +16,7 @@ $("#navigation").mouseleave(function() {
 // Audio
 
 $(document).ready(function() {
-    $("#player").get(0).play();
+    $("#player").play();
 });
 
 $("#player").prop("volume", 0.05);
