@@ -15,9 +15,10 @@ $("#navigation").mouseleave(function() {
 
 // Audio
 
-$(document).ready(function() {
-    $("#player").play();
-});
+var x = document.getElementById("player");
+x.autoplay = true;
+x.load();
+
 
 $("#player").prop("volume", 0.05);
 
