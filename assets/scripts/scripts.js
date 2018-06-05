@@ -15,7 +15,12 @@ $("#navigation").mouseleave(function() {
 
 // Audio
 
+$(document).ready(function() {
+    $("#player").get(0).play();
+});
+
 $("#player").prop("volume", 0.05);
+
 
 $(".audio-icon").click(function(){
 	var bool = $("#player").prop("muted");
