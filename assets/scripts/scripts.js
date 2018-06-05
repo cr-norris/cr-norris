@@ -4,11 +4,11 @@ $(".nav-trigger-desktop").mouseenter(function() {
     $('.outside').addClass('in');
 });
 
-$(".nav-trigger-mobile").click(function(){
-	$('.outside').toggleClass('in');
-	$('.nav-close-icon').toggleClass('is-showing');
+
+$("#navigation").mouseout(function() {
+    $('.outside').removeClass('in');
 });
 
-$("#navigation").mouseleave(function() {
-    $('.outside').removeClass('in');
+$(".nav-trigger-mobile.close").click(function(){
+	$('.outside').toggleClass('in');
 });

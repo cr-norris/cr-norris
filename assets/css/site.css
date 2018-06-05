@@ -140,23 +140,6 @@ h1 {
     opacity: .3;
 }
 
-.nav-close-icon {
-    position: fixed;
-    display: none;
-    top: 0;
-    right: 0;
-    padding: 1.25em;
-    cursor: pointer;
-}
-
-@media only screen and (max-width: 600px) {
-.nav-close-icon {
-    z-index: 9999999;
-    bottom: 0 !important;
-    top: inherit;
-    }
-}
-
 .is-showing {
     display: block !important;
     transition: opacity 2s;
@@ -357,7 +340,7 @@ a:hover {
         right: 0;
         padding: 1rem;
         cursor: pointer;
-        z-index: 9999;
+        z-index: 9999999;
     }
     .nav-trigger-desktop {
         display: none;
