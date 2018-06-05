@@ -12,14 +12,3 @@ $(".nav-trigger-mobile").click(function(){
 $("#navigation").mouseleave(function() {
     $('.outside').removeClass('in');
 });
-
-// Audio
-
-$("#player").prop("volume", 0.05);
-
-
-$(".audio-icon").click(function(){
-	var bool = $("#player").prop("muted");
-        $("#player").prop("muted",!bool);
-        $(this).toggleClass("dim");
-});
