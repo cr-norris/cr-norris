@@ -1,3 +1,5 @@
+//Navigation
+
 $(".nav-trigger-desktop").mouseenter(function() {
     $('.outside').addClass('in');
 });
@@ -11,6 +13,7 @@ $("#navigation").mouseleave(function() {
     $('.outside').removeClass('in');
 });
 
+// Audio
 
 $("#player").prop("volume", 0.05);
 
