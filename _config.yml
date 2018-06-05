@@ -8,12 +8,12 @@ email: chris@cr-norris
 description: A graphic designer working as a creative partner across brand, publication, and digital design projects.
 baseurl: "/"
 url: "cr-norris.com"
-permalink: /:categories/:title/
+permalink: /:title/
 
 collections:
   pages:
     output: true
-    permalink: /:name/
+    permalink: /:title/
 
 # Build settings
 markdown: kramdown
