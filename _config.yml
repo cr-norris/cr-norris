@@ -5,7 +5,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Christopher Norris
 email: chris@cr-norris
-description: A graphic designer working as a creative partner across brand, publication, and digital design projects.
+description: A graphic designer working as a creative partner across brand, publication, and digital design projects. Currently helping shape Alder Studio in Burlington, Vermont.
 baseurl: "/"
 url: "cr-norris.com"
 permalink: /:title/
