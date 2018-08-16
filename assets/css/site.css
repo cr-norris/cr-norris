@@ -188,7 +188,7 @@ a:hover {
 }
 
 .splash-text {
-    display: inline;
+    display: inline !important;
     font-size: 4rem;
     line-height: 5.5rem;
     font-weight: 800;
@@ -197,6 +197,10 @@ a:hover {
     letter-spacing: -.03em;
     box-shadow: 20px 0 0 yellow, -20px 0 0 yellow;
     -webkit-box-shadow: 20px 0 0 yellow, -20px 0 0 yellow;
+}
+
+.splash-body {
+    margin-top: 4em;
 }
 
 .hide {
@@ -213,6 +217,11 @@ a:hover {
 
 .full-height {
     min-height: 100vh;
+    display: flex;
+}
+
+.half-height {
+    min-height: 50vh;
     display: flex;
 }
 
