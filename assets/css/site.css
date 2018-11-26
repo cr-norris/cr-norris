@@ -55,6 +55,10 @@ p {
     line-height: 1.75em;
 }
 
+b {
+    font-weight: 900;
+}
+
 
 li {
     font-family: 'Merriweather', serif;
@@ -73,6 +77,11 @@ h3 {
     font-weight: 400;
     line-height: 1.6em;
     margin: .25em 0 1.5em 0;
+}
+
+.quote-source {
+    font-size: .85em;
+    opacity: .5;
 }
 
 figure {
