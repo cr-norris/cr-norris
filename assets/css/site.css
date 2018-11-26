@@ -67,6 +67,13 @@ h2 {
     margin: .25em 0 1.5em 0;
 }
 
+h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.6em;
+    margin: .25em 0 1.5em 0;
+}
 
 figure {
     margin: 0em 0em 1rem 0em !important;
