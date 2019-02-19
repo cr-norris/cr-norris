@@ -236,17 +236,17 @@ a:hover {
     border-bottom: 1px solid #0000001a;
 }
 
-.full-height {
+.full {
     min-height: 100vh;
     display: flex;
 }
 
-.half-height {
+.half {
     min-height: 50vh;
     display: flex;
 }
 
-.quarter-height {
+.quarter {
     min-height: 30vh;
     display: flex;
 }
