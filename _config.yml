@@ -2,8 +2,11 @@
 title: Christopher Norris
 email: chris@cr-norris
 description: Enthusiastically generalising in all things design in Burlington, Vermont. On a perpetual mission to explore the outer limits of Alderworld with a team of close friends and collaborators. Currently unfolding a design language with Mosaic.
+image: "../assets/images/crn-photo.jpg"
 baseurl: "/"
 url: "cr-norris.com"
+arena: "https://www.are.na/christopher-norris-1507041170/index"
+instagram: "https://instagram.com/christophernorris"
 permalink: /:title/
 
 collections:
