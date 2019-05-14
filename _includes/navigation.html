@@ -1,5 +1,5 @@
 <nav class="navigation row start-xs">
-    <a href="/" class="col-xs-12 col-sm-2"><b>{{ site.title }}</b>
+    <a href="/" class="site-title">{{ site.title }}</a>
         {% assign pages = site.pages | sort: 'order' %}
 	{% for node in pages %} {% if page.url == node.url %}
 	<a href="{{ node.url }}" class="active">{{ node.title }}</a>
