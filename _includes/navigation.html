@@ -1,6 +1,10 @@
 <nav class="navigation row start-xs">
-	<a href="/" class="col-xs-12 col-sm-2"><b>{{ site.title }}</b>
-	{% for page in site.pages %}
-        <a href="{{ page.url }}" class="col-xs-12 col-sm-1">{{ page.title }}</a>
-    {% endfor %}
+    <a href="/" class="col-xs-12 col-sm-2"><b>{{ site.title }}</b>
+        {% assign pages = site.pages | sort: 'order' %}
+	{% for node in pages %} {% if page.url == node.url %}
+	<a href="{{ node.url }}" class="active">{{ node.title }}</a>
+	{% else %}
+	<a href="{{ node.url }}" >{{ node.title }}</a>
+{% endif %} {% endfor %}
 </nav>
+
