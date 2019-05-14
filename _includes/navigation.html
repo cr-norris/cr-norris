@@ -1,5 +1,6 @@
-<div class="navigation row start-xs">
-	<a href="/" class="col-xs-2"><b>{{ site.title }}</b>
-    <a href="/about/" class="col-xs-1">About</a>
-    <a href="/posts/" class="col-xs-1">Posts</a>
-</div>
+<nav class="navigation row start-xs">
+	<a href="/" class="col-xs-12 col-sm-2"><b>{{ site.title }}</b>
+	{% for page in site.pages %}
+        <a href="{{ page.url }}" class="col-xs-12 col-sm-1">{{ page.title }}</a>
+    {% endfor %}
+</nav>

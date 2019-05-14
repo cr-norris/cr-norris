@@ -16,6 +16,10 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+img {
+    width: 100%;
+}
+
 .wrapper {
     margin: 0 auto;
     margin: 1rem;
@@ -25,13 +29,17 @@ body {
     height: 100vh;
 }
 
-.navigation {
+nav {
     width: 100%;
     padding: 1rem;
     border-bottom: 1px solid #0000001a;
 }
 
-.navigation a {
+nav a {
+    text-decoration: none;
+}
+
+.home a {
     text-decoration: none;
 }
 
@@ -111,8 +119,13 @@ h3 {
     line-height: 1em;
 }
 
+.site-title {
+    margin: 3rem 0 !important;
+    display: block;
+}
+
 figure {
-    margin: 0em 0em 1rem 0em !important;
+    margin: 0em!important;
 }
 
 figcaption {
