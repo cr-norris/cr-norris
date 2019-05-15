@@ -8,18 +8,22 @@
 		$.ajax({
 			url: "https://api.are.na/v2/channels/" + channel + "/contents",
 			type: "GET",
-			success: function(data) {
+			data: {
+				per: 3,
+			},
 
+			success: function(data) {
 				data.contents.forEach((index, i) => {
 					console.log(index);
 				});
-
 			},
+
 			error: function() {
 				$(".arena-channel").append(
 					"<pre class='row'> Oops, can't connect to are.na. <pre>"
 				);
 			}
+			
 		});
 	});
 </script>
