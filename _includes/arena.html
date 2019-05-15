@@ -1,0 +1,25 @@
+<div class="arena-channel"><!--- Append Here ---></div>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		
+		let channel = "{{ page.channel }}";
+
+		$.ajax({
+			url: "http://api.are.na/v2/channels/" + channel + "/contents",
+			type: "GET",
+			success: function(data) {
+
+				data.contents.forEach((index, i) => {
+					console.log(index);
+				});
+
+			},
+			error: function() {
+				$(".arena-channel").append(
+					"<pre class='row'> Oops, can't connect to are.na. <pre>"
+				);
+			}
+		});
+	});
+</script>

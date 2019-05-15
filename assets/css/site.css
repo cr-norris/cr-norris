@@ -1,3 +1,11 @@
+/* –-------------------------------------------------------------------------
+
+
+Structure
+
+
+–-------------------------------------------------------------------------*/
+
 *,
 *:before,
 *:after {
@@ -10,23 +18,19 @@ html,
 body {
     width: 100%;
     margin: auto;
-    line-height: 1.5em;
+    line-height: 1. ;
     color: #272727;
     background-color: #E5FFF6;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Merriweather', serif;
 }
 
 img {
     width: 100%;
 }
 
-.wrapper {
-    margin: 0 auto;
-    margin: 1rem;
-}
-
-.full {
-    height: 100vh;
+hr {
+    opacity: .4;
+    margin: 3em 0;
 }
 
 nav {
@@ -41,23 +45,6 @@ nav a {
     margin: 0 1rem;
 }
 
-a.active {
-    border-bottom: 1px solid black;
-}
-
-.home a {
-    text-decoration: none;
-}
-
-.post {
-    background-color: white;
-    padding: 1rem;
-}
-
-.post-sidebar {
-    padding: 1rem;
-}
-
 footer {
     display: none;
     background-color: #E5FFF6;
@@ -66,24 +53,61 @@ footer {
     margin: 0 auto;
 }
 
-ul, menu, dir {
-    display: block;
-    list-style-type: none;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0px;
-    -webkit-margin-end: 0px;
-    -webkit-padding-start: 0px;
+.wrapper {
+    margin: 0 auto;
+    margin: 1rem;
 }
 
-hr {
-    opacity: .4;
-    margin: 3em 0;
+.full {
+    height: 100vh;
 }
 
-img {
-    width: 100%;
+::selection {
+    background: yellow;
+    /* WebKit/Blink Browsers */
 }
+
+::-moz-selection {
+    background: yellow;
+    /* Gecko Browsers */
+}
+
+
+/* –-------------------------------------------------------------------------
+
+
+Navigation
+
+
+–-------------------------------------------------------------------------*/
+
+
+a.active {
+    border-bottom: 1px solid black;
+}
+
+.home a {
+    text-decoration: none;
+}
+
+.home a:before {
+    content: "\25B8";
+    padding-right: 1em;
+}
+
+.home a:hover:before {
+    content: "\25B8";
+    padding-right: 1.25em;
+
+}
+
+/* –-------------------------------------------------------------------------
+
+
+Typography
+
+
+–-------------------------------------------------------------------------*/
 
 p {
     font-family: 'Merriweather', serif;
@@ -92,11 +116,6 @@ p {
 
 b {
     font-weight: 900;
-}
-
-
-li {
-    line-height: 1.75em;
 }
 
 h1 {
@@ -117,16 +136,6 @@ h3 {
     font-weight: 400;
     line-height: 1.6em;
     margin: .25em 0 2em 0;
-}
-
-.meta {
-    font-size: .8em;
-    opacity: .75;
-    line-height: 1em;
-}
-
-.site-title {
-    font-weight: bold;
 }
 
 figure {
@@ -175,29 +184,58 @@ a {
   }
 }
 
-::selection {
-    background: yellow;
-    /* WebKit/Blink Browsers */
+ul, menu, dir {
+    display: block;
+    list-style-type: none;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
 }
 
-::-moz-selection {
-    background: yellow;
-    /* Gecko Browsers */
+li {
+    line-height: 1.75em;
 }
 
-.quote-source {
-    font-size: .85em;
-    opacity: .5;
+.meta {
+    font-size: .8em;
+    opacity: .75;
+    line-height: 1em;
 }
 
-.icon {
-    width: 2em;
+.site-title, .post-title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
 }
 
-.icon:hover {
-    opacity: 1;
+
+/* –-------------------------------------------------------------------------
+
+
+Posts
+
+
+–-------------------------------------------------------------------------*/
+
+
+.post {
+    background-color: white;
+    padding: 1rem;
 }
 
+.post-sidebar {
+    padding: 1rem;
+}
+
+
+/* –-------------------------------------------------------------------------
+
+
+Background
+
+
+–-------------------------------------------------------------------------*/
 
 .background {
     background: linear-gradient(238deg, #F7F9F7, #FBFFED, #E5FFF6, white);
@@ -232,7 +270,13 @@ a {
 }
 
 
-/* Forms */
+/* –-------------------------------------------------------------------------
+
+
+Forms
+
+
+–-------------------------------------------------------------------------*/
 
 form {
     margin: 1rem 0;
