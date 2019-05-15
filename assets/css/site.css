@@ -1,3 +1,11 @@
+.stone {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-width: 150px;
+    margin: 2em;
+}
+
 /* –-------------------------------------------------------------------------
 
 
@@ -170,7 +178,7 @@ a:hover {
 
 a {
     text-decoration: underline;
-    color: black;
+    color: inherit;
   
   @supports not (-webkit-text-decoration-skip: objects) {
     filter: url('#svg-underline');
@@ -200,8 +208,13 @@ li {
 
 .meta {
     font-size: .8em;
-    opacity: .75;
+    opacity: .5;
     line-height: 1em;
+}
+
+
+.meta li a {
+    text-decoration: none;
 }
 
 .site-title, .post-title {
@@ -220,6 +233,7 @@ Posts
 
 
 .post {
+    width: 100%;
     background-color: white;
     padding: 1rem;
 }
