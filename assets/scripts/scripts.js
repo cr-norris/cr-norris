@@ -1,3 +1,5 @@
+// Draggable Stone
+
 $( document ).ready(function() {
     
     var width = $(window).width();

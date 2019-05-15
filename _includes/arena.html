@@ -14,10 +14,14 @@
 
 			success: function(data) {
 				data.contents.forEach((index, i) => {
-					console.log(index);
+					if (index.class === "Image") {
+						let image = index.image.display.url;
+						$(".arena-channel").append(
+							"<img src='" + image + "'>" 
+						)
+					}
 				});
 			},
-
 			error: function() {
 				$(".arena-channel").append(
 					"<pre class='row'> Oops, can't connect to are.na. <pre>"
