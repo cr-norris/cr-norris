@@ -30,6 +30,7 @@ body {
     color: #272727;
     background-color: #E5FFF6;
     font-family: 'Merriweather', serif;
+    max-width: 1440px;
 }
 
 img {
