@@ -3,7 +3,7 @@ layout: post
 title: For a Ride
 image: "/assets/images/posts/deathvalley-arrow.jpg"
 image-caption: "Wayfinding at Mosaic Canyon, Death Valley, CA"
-categories: [photography, tripping]
+categories: [photography, tripping, west]
 grid: ["wondernut.jpg", "utah.jpg", "stone.jpg", "utah-2.jpg", "deathvalley-rock.jpg", "wondernut-sheep.jpg", "space-wagon-porch.jpg", "space-wagon-outside.jpg", "mosaic-canyon.jpg", "wondernut-barn.jpg"]
 ---
 
