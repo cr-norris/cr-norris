@@ -95,16 +95,16 @@ a.active {
     border-bottom: 1px solid black;
 }
 
-.home a {
+li a {
     text-decoration: none;
 }
 
-.home a:before {
+li a:before {
     content: "\25B8";
     padding-right: 1em;
 }
 
-.home a:hover:before {
+li a:hover:before {
     content: "\25B8";
     padding-right: 1.25em;
 
@@ -149,12 +149,13 @@ h3 {
 
 figure {
     margin: 0em!important;
+    padding: 1rem 1rem 0rem 1rem;
+    background: white;
 }
-
 figcaption {
     font-size: .85em;
     opacity: .5;
-    padding: 1em 0;
+    padding: 2em 0;
 }
 
 figcaption:before {
@@ -167,10 +168,12 @@ blockquote {
     display: block;
     font-family: 'Merriweather', serif;
     font-size: .9em;
+    line-height: 1.8em;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
+    opacity: .6;
 }
 
 a:hover {
@@ -180,7 +183,7 @@ a:hover {
 a {
     text-decoration: underline;
     color: inherit;
-  
+
   @supports not (-webkit-text-decoration-skip: objects) {
     filter: url('#svg-underline');
     text-decoration: none;
@@ -241,6 +244,25 @@ Posts
 
 .post-sidebar {
     padding: 1rem;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
+.post p, ul {
+  padding: .5rem;
+}
+
+.post-image-grid.col-xs-6 {
+  box-sizing: border-box;
+  padding: .5rem !important;
+}
+
+.post-image-grid.col-xs-6 img {
+  display: block;
+  pointer-events: none;
 }
 
 

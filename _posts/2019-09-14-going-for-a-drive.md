@@ -1,0 +1,16 @@
+---
+layout: post
+title: For a Ride
+image: "/assets/images/posts/deathvalley-arrow.jpg"
+image-caption: "Wayfinding at Mosaic Canyon, Death Valley, CA"
+categories: [blog, travel]
+tags: [hot, summer]
+grid: ["wondernut.jpg", "utah.jpg", "stone.jpg", "utah-2.jpg", "deathvalley-rock.jpg", "wondernut-sheep.jpg", "space-wagon-porch.jpg", "space-wagon-outside.jpg", "mosaic-canyon.jpg", "wondernut-barn.jpg"]
+---
+
+In May 2019, after 11 years in Burlington, Vermont I packed up for San Francisco to take a new job. Flying to Denver, CO and driving west to visit the mountains of the American west for the first time. Colorado stops included Denver and Ridgeway. Utah included Canyonlands, Boulder, and Zion. Finally landing in California via Death Valley, Sequoia, and Yosemite. A Google Maps route is available <a href="https://www.google.com/maps/dir/Denver,+CO/Johnson+Village,+CO/Orvis+Hot+Springs/Dead+Horse+Point+State+Park/Burr+Trail+Rd,+Utah/Zion+National+Park,+Utah/Death+Valley+National+Park/Camp+Nelson,+CA/Yosemite+National+Park,+California/San+Francisco,+CA/@36.8678503,-119.4580817,8.65z/data=!4m63!4m62!1m5!1m1!1s0x876b80aa231f17cf:0x118ef4f8278a36d6!2m2!1d-104.990251!2d39.7392358!1m5!1m1!1s0x8715345411abf979:0x194241f4cef95f25!2m2!1d-106.1066835!2d38.8108291!1m5!1m1!1s0x873f3cc8a24446f3:0x47c2f1de976cb8d9!2m2!1d-107.7350771!2d38.1338064!1m5!1m1!1s0x87481275110f6399:0xee2b196d782ab94c!2m2!1d-109.7405716!2d38.4748255!1m5!1m1!1s0x8735fb0b7af1592d:0xd77f245f8f3fecc5!2m2!1d-111.109684!2d37.8689522!1m5!1m1!1s0x80caead08844f8d9:0x7c2e3a15aa3656f5!2m2!1d-113.0263005!2d37.2982022!1m5!1m1!1s0x80c74b7776ae8a47:0xccc9f07c7bf2b054!2m2!1d-117.0794078!2d36.5053891!1m5!1m1!1s0x80c01c46d2385939:0x108e0cf06f425663!2m2!1d-118.6092561!2d36.1427237!1m5!1m1!1s0x8096f09df58aecc5:0x2d249c2ced8003fe!2m2!1d-119.5383294!2d37.8651011!1m5!1m1!1s0x80859a6d00690021:0x4a501367f076adff!2m2!1d-122.4194155!2d37.7749295!3e0!4e1" target="_blank">here. </a>
+
+> "One final paragraph of advice: do not burn yourselves out. Be as I am — a reluctant enthusiast... a part-time crusader, a half-hearted fanatic. Save the other half of yourselves and your lives for pleasure and adventure. It is not enough to fight for the land; it is even more important to enjoy it. While you can. While it’s still here. So get out there and hunt and fish and mess around with your friends, ramble out yonder and explore the forests, climb the mountains, bag the peaks, run the rivers, breathe deep of that yet sweet and lucid air, sit quietly for a while and contemplate the precious stillness, the lovely, mysterious, and awesome space. Enjoy yourselves, keep your brain in your head and your head firmly attached to the body, the body active and alive, and I promise you this much; I promise you this one sweet victory over our enemies, over those desk-bound men and women with their hearts in a safe deposit box, and their eyes hypnotized by desk calculators. I promise you this; You will outlive the bastards." — Edward Abbey *‌Saving Nature's Legacy: Protecting and Restoring Biodiversity*
+
+
+{% include image-grid.html %}
