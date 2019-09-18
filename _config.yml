@@ -3,6 +3,7 @@ title: Christopher Norris
 email: chris@cr-norris
 description: Currently unfolding a design language in San Francisco with Mosaic Building Group. Previoiusly voyaged into the outer limits of with a team of close friends and collaborators in Burlington, Vermont.
 url: "cr-norris.com"
+baseurl: "/"
 permalink: /:title/
 
 collections:
