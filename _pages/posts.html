@@ -4,13 +4,11 @@ title: Posts
 order: 3
 ---
 
-<div class="row start-xs page">
+<div class="row top-xs start-xs page">
     {% for post in site.posts %}
-    <a href="{{ post.url }}" class="col-xs-12 col-sm-4">
-        <div class="post">
+    <a href="{{ post.url }}" class="post col-xs-12 col-sm-4">
         	<img src="{{ post.image }}">
         	<p>{{ post.title }}</p>
-        </div>
-    </a>
+      </a>
     {% endfor %}
 </div>
