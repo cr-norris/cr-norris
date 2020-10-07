@@ -4,6 +4,7 @@
     right: 0;
     max-width: 150px;
     margin: 2em;
+    z-index: 10;
 }
 
 /* –-------------------------------------------------------------------------
@@ -30,7 +31,6 @@ body {
     color: #272727;
     background-color: #E5FFF6;
     font-family: 'Merriweather', serif;
-    max-width: 1440px;
 }
 
 img {
@@ -43,13 +43,12 @@ hr {
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
     width: 100%;
-    padding: 1rem;
+    padding: 1rem 0;
     height: 10vh;
-    border-bottom: 1px solid #0000001a;
 }
 
 nav a {
@@ -67,11 +66,9 @@ footer {
 }
 
 .wrapper {
-    position: absolute;
-    top: 10vh;
-    left: 0;
+    position: relative;
     margin: 0 auto;
-    margin: 1rem;
+    max-width: 1100px;
 }
 
 .full {
@@ -261,7 +258,6 @@ Posts
     width: 100%;
     border: 1px solid #0000001a;
     border-collapse: collapse;
-    background-color: transparent;
     padding: 1rem;
 }
 
@@ -273,7 +269,6 @@ Posts
 .post-body {
   width: 100%;
   border: 1px solid #0000001a;
-  background-color: #ffffff90;
   padding: 1rem 4rem;
 }
 
@@ -281,13 +276,18 @@ Posts
     padding: 1rem;
 }
 
-.post-title {
-  font-size: 1.5rem;
-  padding: .5rem;
+.post-meta {
+  font-size: .75rem;
+  padding: 0 1rem;
 }
 
-.post p, ul {
-  padding: .5rem;
+.post-title {
+  font-size: 1.75rem;
+  padding: 0 1rem;
+}
+
+.post-content {
+  padding: 0 1rem;
 }
 
 .post-image-grid.col-xs-6 {
@@ -359,6 +359,7 @@ textarea {
     outline: none;
     background-color: transparent;
     resize: none;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 p#warningName,
